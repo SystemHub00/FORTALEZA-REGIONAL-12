@@ -55,11 +55,11 @@ SCHEDULE_OPTIONS = {
 # 4-5. DATAS
 # =============================================================================
 START_DATE_OPTIONS = {
-    "1": "29/06/2026",
+    "1": "22/06/2026",
     "2": "26/06/2026",
 }
 END_DATE_OPTIONS = {
-    "1": "01/07/2026",
+    "1": "24/06/2026",
     "2": "26/06/2026",
 }
 
@@ -158,8 +158,6 @@ def fill_form_data_from_selection(form_data):
     for key in ("local","curso","turma","dias_aula","horario",
                 "data_inicio","encerramento","endereco_curso","opcao_id"):
         form_data.setdefault(key, "")
-
-
 TEMPLATE_WIZARD = """\
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -800,6 +798,7 @@ TEMPLATE_WIZARD = """\
                                             <div class="benefit-slide">Mais oportunidades de emprego e geração de renda</div>
                                             <div class="benefit-slide">&#128218; Material didático incluso</div>
                                             <div class="benefit-slide">Networking e troca de experiências</div>
+                                            <div class="benefit-slide">Suporte para desenvolver sua carreira profissional</div>
                                             <div class="benefit-slide">Estrutura e recursos adequados para cada formação</div>
                                             <div class="benefit-slide">Qualificação para quem deseja crescer e conquistar novas oportunidades</div>
                                         </div>
