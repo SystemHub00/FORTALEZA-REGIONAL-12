@@ -39,7 +39,7 @@ LOCAL_OPTIONS = [
 # 2. CATÁLOGO DE CURSOS
 # =============================================================================
 COURSE_CATALOG = [
-    {"id": "1", "nome": "26/TRNC 02 - TRANCISTA"},
+    {"id": "1", "nome": "26/TRNC 01 - TRANCISTA"},
     {"id": "2", "nome": "26/OFDN 05 - OFICINA DE DANÇA (SÃO JOÃO)"},
 ]
 
