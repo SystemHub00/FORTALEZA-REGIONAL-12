@@ -76,7 +76,7 @@ ADDRESS_OPTIONS = {
 TURMA_OPTIONS = [
     {
         "id": "1", "curso_id": "1", "local_id": "1",
-        "turma_codigo": "26/TRNC-02",
+        "turma_codigo": "26/TRNC-01",
         "agenda_id": "1", "periodo_id": "1",
         "encerramento_id": "1", "endereco_id": "1",
     },
