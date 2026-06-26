@@ -40,27 +40,24 @@ LOCAL_OPTIONS = [
 # =============================================================================
 COURSE_CATALOG = [
     {"id": "1", "nome": "26/TRNC 01 - TRANCISTA"},
-    {"id": "2", "nome": "26/OFDN 05 - OFICINA DE DANÇA (SÃO JOÃO)"},
 ]
 
 # =============================================================================
 # 3. HORÁRIOS
 # =============================================================================
 SCHEDULE_OPTIONS = {
-    "1": {"dias_aula": "Quarta a Terça", "horario": "14h até 18h"},  # TRNC02 - atualizado
-    "2": {"dias_aula": "Sexta",          "horario": "18h até 21h"},  # OFDN05 - inalterado
+    "1": {"dias_aula": "Quarta a Terça", "horario": "14h até 18h"},
 }
 
 # =============================================================================
 # 4-5. DATAS
 # =============================================================================
 START_DATE_OPTIONS = {
-    "1": "29/06/2026",  # inalterado
-    "2": "26/06/2026",  # inalterado
+    "1": "06/07/2026",
 }
+
 END_DATE_OPTIONS = {
-    "1": "03/07/2026",  # TRNC02 - atualizado (era 01/07)
-    "2": "26/06/2026",  # inalterado
+    "1": "08/07/2026",
 }
 
 # =============================================================================
@@ -75,22 +72,21 @@ ADDRESS_OPTIONS = {
 # =============================================================================
 TURMA_OPTIONS = [
     {
-        "id": "1", "curso_id": "1", "local_id": "1",
+        "id": "1",
+        "curso_id": "1",
+        "local_id": "1",
         "turma_codigo": "26/TRNC-01",
-        "agenda_id": "1", "periodo_id": "1",
-        "encerramento_id": "1", "endereco_id": "1",
-    },
-    {
-        "id": "2", "curso_id": "2", "local_id": "1",
-        "turma_codigo": "26/OFDN-05",
-        "agenda_id": "2", "periodo_id": "2",
-        "encerramento_id": "2", "endereco_id": "1",
+        "agenda_id": "1",
+        "periodo_id": "1",
+        "encerramento_id": "1",
+        "endereco_id": "1",
     },
 ]
 
 # =============================================================================
 # 8. FUNÇÕES AUXILIARES
 # =============================================================================
+
 def build_course_options():
     local_by_id  = {opt["id"]: opt for opt in LOCAL_OPTIONS}
     course_by_id = {opt["id"]: opt for opt in COURSE_CATALOG}
